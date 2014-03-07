@@ -9,11 +9,16 @@ module LanguageList
       @iso_639_3 = options[:iso_639_3]
       @iso_639_1 = options[:iso_639_1]
       @common = options[:common]
+      @appy = options[:appy]
       @type = options[:type]
     end
 
     def common?
       @common
+    end
+
+    def appy?
+      @appy
     end
 
     def <=>(other)
@@ -61,6 +66,7 @@ module LanguageList
   ISO_639_1 = ALL_LANGUAGES.select(&:iso_639_1?)
   LIVING_LANGUAGES = ALL_LANGUAGES.select(&:living?)
   COMMON_LANGUAGES = ALL_LANGUAGES.select(&:common?)
+  APPY_LANGUAGES = ALL_LANGUAGES.select(&:appy?)
 
   BY_NAME      = {}
   BY_ISO_639_1 = {}

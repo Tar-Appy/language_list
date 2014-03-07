@@ -12269,6 +12269,7 @@
   :iso_639_2b: ger
   :iso_639_2t: deu
   :common: true
+  :appy: true
   :type: :living
   :scope: :individual
 - :name: Domung
@@ -14437,6 +14438,7 @@
   :iso_639_2b: eng
   :iso_639_2t: eng
   :common: true
+  :appy: true
   :type: :living
   :scope: :individual
 - :name: Tundra Enets
@@ -15333,6 +15335,7 @@
   :iso_639_2b: fre
   :iso_639_2t: fra
   :common: true
+  :appy: true
   :type: :living
   :scope: :individual
 - :name: Cajun French
@@ -20781,6 +20784,7 @@
   :iso_639_2b: ita
   :iso_639_2t: ita
   :common: true
+  :appy: true
   :type: :living
   :scope: :individual
 - :name: Binongan Itneg
@@ -47309,6 +47313,7 @@
   :iso_639_2b: spa
   :iso_639_2t: spa
   :common: true
+  :appy: true
   :type: :living
   :scope: :individual
 - :name: Sepa (Indonesia)

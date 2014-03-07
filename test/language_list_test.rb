@@ -10,6 +10,10 @@ class LanguageListTest < Minitest::Test
     assert_equal 71, LanguageList::COMMON_LANGUAGES.length
   end
 
+  def test_appy_languages
+    assert_equal 5, LanguageList::APPY_LANGUAGES.length
+  end
+
   def test_living_languages
     assert_equal 6986, LanguageList::LIVING_LANGUAGES.length
   end
