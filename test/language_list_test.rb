@@ -11,7 +11,7 @@ class LanguageListTest < Minitest::Test
   end
 
   def test_appy_languages
-    assert_equal 5, LanguageList::APPY_LANGUAGES.length
+    assert_equal 9, LanguageList::APPY_LANGUAGES.length
   end
 
   def test_living_languages

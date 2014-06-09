@@ -18490,6 +18490,7 @@
   :common: true
   :type: :living
   :scope: :individual
+  :appy: true
 - :name: Herdé
   :iso_639_1: 
   :iso_639_3: hed
@@ -44635,6 +44636,7 @@
   :common: true
   :type: :living
   :scope: :individual
+  :appy: true
 - :name: Rutul
   :iso_639_1: 
   :iso_639_3: rut
@@ -46603,6 +46605,7 @@
   :common: true
   :type: :living
   :scope: :individual
+  :appy: true
 - :name: Salt-Yui
   :iso_639_1: 
   :iso_639_3: sll
@@ -50004,6 +50007,7 @@
   :common: true
   :type: :living
   :scope: :individual
+  :appy: true
 - :name: Tai Hang Tong
   :iso_639_1: 
   :iso_639_3: thc

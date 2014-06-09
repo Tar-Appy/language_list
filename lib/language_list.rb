@@ -62,6 +62,8 @@ module LanguageList
     warn "Reverting to hash load: #{e.message}"
     yaml_data = YAML.load_file(File.expand_path(File.join(File.dirname(__FILE__),'..', 'data', 'languages.yml')))
     yaml_data.map{|e| LanguageInfo.new(e) }
+    # Generate dump
+    # File.open(File.expand_path(File.join(File.dirname(__FILE__),'..', 'data', 'dump')), 'wb') {|f| f.write(Marshal.dump(d)) }
   end
   ISO_639_1 = ALL_LANGUAGES.select(&:iso_639_1?)
   LIVING_LANGUAGES = ALL_LANGUAGES.select(&:living?)
