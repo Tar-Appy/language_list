@@ -10520,13 +10520,14 @@
   :type: :extinct
   :scope: :individual
 - :name: Mandarin Chinese
-  :iso_639_1: 
+  :iso_639_1: cn
   :iso_639_3: cmn
   :iso_639_2b: 
   :iso_639_2t: 
   :common: false
   :type: :living
   :scope: :individual
+  :appy: true
 - :name: Central Mnong
   :iso_639_1: 
   :iso_639_3: cmo
