@@ -1,3 +1,3 @@
 module LanguageList
-  VERSION = "1.2.appy"
+  VERSION = "1.3.appy"
 end

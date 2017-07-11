@@ -54,6 +54,15 @@ module LanguageList
     def self.find(code)
       find_by_iso_639_1(code) || find_by_iso_639_3(code) || find_by_name(code)
     end
+
+    def self.recreate_dump_file
+      path = File.expand_path(File.join(File.dirname(__FILE__),'..', 'data', 'dump'))
+      File.open(path, 'wb:UTF-8:ASCII-8BIT') {|f| f.write(Marshal.dump(yaml_data.map{|e| LanguageInfo.new(e) })) }
+    end
+
+    def self.yaml_data
+      YAML.load_file(File.expand_path(File.join(File.dirname(__FILE__),'..', 'data', 'languages.yml')))
+    end
   end
 
   ALL_LANGUAGES = begin
